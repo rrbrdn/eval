@@ -1,0 +1,59 @@
+.masthead {
+    background-size: cover;
+    min-height: 60vh;
+    position: relative;
+    color: white;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.color-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.nav { 
+    margin-bottom: 0;
+}
+.dropdown-menu { 
+    width: 100%; 
+}
+
+#carouselExampleControls {
+    width: 30%;
+}
+#carouselExampleControls2 {
+    width: 30%;
+}
+
+#carouselExampleControls3 {
+    width: 30%;
+}
+
+#carouselExampleControls4 {
+    width: 30%;
+}
+
+@media (max-width: 500px) {
+    p {
+        display: none;
+    }
+
+    img {
+        height: 100px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 768px) {
+    .masthead {
+        min-height: 30vh;
+    }
+    h1 {
+        font-size: calc(1.525rem + 3.3vw);
+    }
+}
